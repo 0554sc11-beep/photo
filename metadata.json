@@ -1,0 +1,6 @@
+{
+  "name": "과학 수업 슬라이드쇼 메이커",
+  "description": "학생들과 함께한 과학 실험 및 관찰 사진을 아름다운 음악과 함께 멋진 발표 슬라이드쇼로 만들고 감상하는 에듀테크 도구",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

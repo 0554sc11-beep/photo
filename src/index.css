@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+.font-sans-kr {
+  font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.font-serif-kr {
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.font-mono-kr {
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+/* Custom scrollbars */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.4);
+  border-radius: 9999px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: rgba(107, 114, 128, 0.7);
+}
+
+@keyframes pulseSlow {
+  0%, 100% { opacity: 0.95; }
+  50% { opacity: 0.75; }
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 3s ease-in-out infinite;
+}
+
